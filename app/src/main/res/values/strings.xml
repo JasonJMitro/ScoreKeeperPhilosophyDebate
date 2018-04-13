@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Score Keeper: Philosophy Debate</string>
+    <string name="philosopher_one">Plato</string>
+    <string name="zero_score">0</string>
+    <string name="top_button">deductive argument</string>
+    <string name="middle_button">argument from analogy</string>
+    <string name="lower_button">thought experiment</string>
+    <string name="philosopher_two">Aristotle</string>
+    <string name="reset_button">reductio ad nihilum</string>
+</resources>

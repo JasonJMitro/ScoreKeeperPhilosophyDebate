@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/schoolofathens2"
+    android:fillViewport="true"
+    tools:context="com.example.android.scorekeeperphilosophydebate.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="@dimen/zero_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/weight"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text_view_style"
+                    android:padding="@dimen/padding"
+                    android:text="@string/philosopher_one"
+                    android:textSize="@dimen/philosopher_text_size" />
+
+                <TextView
+                    android:id="@+id/plato_score"
+                    style="@style/text_view_style"
+                    android:paddingBottom="@dimen/padding_bottom"
+                    android:text="@string/zero_score"
+                    android:textSize="@dimen/score_text_size" />
+
+                <Button
+                    style="@style/button_style"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:layout_marginLeft="@dimen/margin_lr"
+                    android:layout_marginRight="@dimen/margin_lr"
+                    android:onClick="addThreeForPlato"
+                    android:text="@string/top_button" />
+
+                <Button
+                    style="@style/button_style"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:layout_marginLeft="@dimen/margin_lr"
+                    android:layout_marginRight="@dimen/margin_lr"
+                    android:onClick="addTwoForPlato"
+                    android:text="@string/middle_button" />
+
+                <Button
+                    style="@style/button_style"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:layout_marginLeft="@dimen/margin_lr"
+                    android:layout_marginRight="@dimen/margin_lr"
+                    android:onClick="addOneForPlato"
+                    android:text="@string/lower_button" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/zero_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/weight"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text_view_style"
+                    android:padding="@dimen/padding"
+                    android:text="@string/philosopher_two"
+                    android:textSize="@dimen/philosopher_text_size" />
+
+                <TextView
+                    android:id="@+id/aristotle_score"
+                    style="@style/text_view_style"
+                    android:paddingBottom="@dimen/padding_bottom"
+                    android:text="@string/zero_score"
+                    android:textSize="@dimen/score_text_size" />
+
+                <Button
+                    style="@style/button_style"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:layout_marginLeft="@dimen/margin_lr"
+                    android:layout_marginRight="@dimen/margin_lr"
+                    android:onClick="addThreeForAristotle"
+                    android:text="@string/top_button" />
+
+                <Button
+                    style="@style/button_style"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:layout_marginLeft="@dimen/margin_lr"
+                    android:layout_marginRight="@dimen/margin_lr"
+                    android:onClick="addTwoForAristotle"
+                    android:text="@string/middle_button" />
+
+                <Button
+                    style="@style/button_style"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:layout_marginLeft="@dimen/margin_lr"
+                    android:layout_marginRight="@dimen/margin_lr"
+                    android:onClick="addOneForAristotle"
+                    android:text="@string/lower_button" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/margin_reset_button"
+            android:background="@drawable/custombutton"
+            android:onClick="reset"
+            android:text="@string/reset_button" />
+
+    </RelativeLayout>
+</ScrollView>
+
+
+

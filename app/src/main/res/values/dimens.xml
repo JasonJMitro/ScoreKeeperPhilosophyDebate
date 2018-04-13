@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_bottom">8dp</dimen>
+    <dimen name="margin_lr">24dp</dimen>
+    <dimen name="margin_reset_button">32dp</dimen>
+    <dimen name="zero_width">0dp</dimen>
+    <dimen name="weight">1</dimen>
+    <dimen name="radius">100dp</dimen>
+    <dimen name="philosopher_text_size">16sp</dimen>
+    <dimen name="score_text_size">56sp</dimen>
+    <dimen name="padding_bottom">24dp</dimen>
+    <dimen name="padding">16dp</dimen>
+</resources>
